@@ -67,9 +67,11 @@
 .cover {
   position: relative;
   background-image: url(../images/cover.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   z-index: 0;
+ 
+
 }
 
 .cover__container {
@@ -133,8 +135,9 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  gap: 81px;
-  margin-bottom: 2px;
+  gap: 78px;
+  padding-right: 5px;
+  
 }
 
 .quote__style {
@@ -301,16 +304,29 @@
   padding-top: 100px;
 }
 
-.footer {
-  padding-left: 116px;
-  padding-right: 117px;
-  padding-bottom: 90px;
-  padding-top: 181px;
-}
+
+
 .footer__container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 90px;
+  padding-top: 181px;
+}
+
+.footer__address {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 18px;
+}
+
+.footer_address_style {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  max-width: 135px;
 }
 
 .footer_menu {
@@ -322,7 +338,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0px;
   list-style-type: none;
   font-size: 18px;
 }
