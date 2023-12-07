@@ -67,11 +67,9 @@
 .cover {
   position: relative;
   background-image: url(../images/cover.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   z-index: 0;
- 
-
 }
 
 .cover__container {
@@ -137,7 +135,6 @@
   align-items: center;
   gap: 78px;
   padding-right: 5px;
-  
 }
 
 .quote__style {
@@ -174,7 +171,7 @@
 
 .title {
   padding-left: 90px;
-  padding-top: 179px;
+  padding-top: 181px;
   font-size: 40px;
 }
 
@@ -303,8 +300,6 @@
 .about__text-block {
   padding-top: 100px;
 }
-
-
 
 .footer__container {
   display: flex;
